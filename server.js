@@ -1,13 +1,14 @@
 const express = require("express");
-const router = expres.Router();
-const cors = require("corse");
+const router = express.Router();
 const nodemailer = require("nodemailer");
-
+const cors = require("cors");
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.listen(3000, () => console.log("Server is Running!"));
+
 console.log(process.env.EMAIL_USER);
 console.log(process.env.EMAIL_PASS);
 
