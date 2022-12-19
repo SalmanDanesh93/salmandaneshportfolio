@@ -1,5 +1,5 @@
 import './App.css';
-import 'bulma@0.9.0/css/bulma.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Banner } from"./components/Banner";
 import { NavBar } from"./components/NavBar";
 import { Skills } from"./components/Skills";
