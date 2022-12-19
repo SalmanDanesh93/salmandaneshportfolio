@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/salmandaneshportfolio/static/css/main.cf96d840.css",
+    "main.js": "/salmandaneshportfolio/static/js/main.e1284e44.js",
+    "static/js/787.5e7d5863.chunk.js": "/salmandaneshportfolio/static/js/787.5e7d5863.chunk.js",
+    "static/media/morrorock.JPG": "/salmandaneshportfolio/static/media/morrorock.832988a0a6e8f2d3fe0e.JPG",
+    "static/media/Drone.png": "/salmandaneshportfolio/static/media/Drone.e51fb1c69f9239d50eac.png",
+    "static/media/dronesky.JPG": "/salmandaneshportfolio/static/media/dronesky.93013997d2dfdb2777f6.JPG",
+    "static/media/gamespace.png": "/salmandaneshportfolio/static/media/gamespace.455a376fc0c974b07c34.png",
+    "static/media/Densecloud1.png": "/salmandaneshportfolio/static/media/Densecloud1.9f5a245b48ea676ed31f.png",
+    "static/media/nutririte.png": "/salmandaneshportfolio/static/media/nutririte.4b5b63534ca848189d39.png",
+    "static/media/SEO.png": "/salmandaneshportfolio/static/media/SEO.4c80736a00647a467333.png",
+    "static/media/network.jpg": "/salmandaneshportfolio/static/media/network.a0ea01fedec6fb383676.jpg",
+    "static/media/EE1.png": "/salmandaneshportfolio/static/media/EE1.d3d046d7a48cc3758ecd.png",
+    "static/media/currentFitness.png": "/salmandaneshportfolio/static/media/currentFitness.d8626d4ba1aa32b7ecab.png",
+    "static/media/Coding.png": "/salmandaneshportfolio/static/media/Coding.f99be107549c34578164.png",
+    "static/media/Surface1.png": "/salmandaneshportfolio/static/media/Surface1.874a908329c815797d2c.png",
+    "static/media/sullyscreative.png": "/salmandaneshportfolio/static/media/sullyscreative.39256affde54e026bf2d.png",
+    "static/media/notetakeapp.png": "/salmandaneshportfolio/static/media/notetakeapp.1763fa2962faf99e4967.png",
+    "static/media/jsquiz.png": "/salmandaneshportfolio/static/media/jsquiz.ca1653333f6b9ccb40d3.png",
+    "static/media/revicons.eot": "/salmandaneshportfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/salmandaneshportfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/salmandaneshportfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/salmandaneshportfolio/index.html",
+    "main.cf96d840.css.map": "/salmandaneshportfolio/static/css/main.cf96d840.css.map",
+    "main.e1284e44.js.map": "/salmandaneshportfolio/static/js/main.e1284e44.js.map",
+    "787.5e7d5863.chunk.js.map": "/salmandaneshportfolio/static/js/787.5e7d5863.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf96d840.css",
+    "static/js/main.e1284e44.js"
+  ]
+}
