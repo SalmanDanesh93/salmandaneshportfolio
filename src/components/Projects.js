@@ -11,8 +11,8 @@ import projectImg8 from "../assets/SEO.png";
 import projectImg9 from "../assets/notetakeapp.png";
 import projectImg10 from "../assets/jsquiz.png";
 import projectImg11 from "../assets/currentFitness.png";
-import projectImg12 from "../assets/drone-birds.JPG";
-import projectImg13 from "../assets/tree.JPG";
+// import projectImg12 from "../assets/drone-birds.jpg";
+// import projectImg13 from "../assets/tree.jpg";
 
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
@@ -82,7 +82,7 @@ export const Projects = () => {
     {
       title: "Drone Photography",
       description: "Ariel View",
-      imgUrl: projectImg12,
+      // imgUrl: projectImg12,
     }
   ]
 
@@ -90,7 +90,7 @@ export const Projects = () => {
     {
       title: "Drone Photography",
       description: "Ariel View",
-      imgUrl: projectImg13,
+      // imgUrl: projectImg13,
     }
   
   ]
