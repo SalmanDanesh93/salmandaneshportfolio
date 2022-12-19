@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImage from "../assets/what-do-you-see_adobe_express.svg"
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { ArrowUpCircleFill } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
@@ -11,7 +10,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(200 - Math.random() * 100);
     const [index, setIndex] = useState(0);
-    const toRotate = ["Engineering Design", "Web Designer", "Web Developer", "Drone Videographer"]
+    const toRotate = ["Design Engineer", "Web Developer", "Drone Videographer", "Design Consultant"]
     const period = 2000;
 
     useEffect(() => {
@@ -53,11 +52,14 @@ export const Banner = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Delighted to have you! Welcome to my Portfolio!</span>
-                                    <h1>{`Hello! I'm Salman`} <span className="text-rotate" datePeriod="1000" data-rotate='[ "Engineering Design", "Web Designer", "Web Developer", "Drone Videographer" ]'><span className="wrap"> {text} </span></span> </h1>
+                                    <h1>{`Hello! I'm Salman M Danesh, `} <span className="text-rotate" datePeriod="1000" data-rotate='[ "Design Engineer", "Web Developer", "Drone Videographer", "Design Consultant" ]'><span className="wrap"> {text} </span></span> </h1>
                                     <p>I enjoy problem-solving and helping my peers and clients achieve the most out of work. I am meticulous, disciplined, and hard-working. Driven to excel in all aspects of my life. Recognized for being innovative and detail-oriented in addition to having strong leadership and communication skills. Thank you for taking time to get to know a little about me and hope to work with you soon!</p>
-                                    <button onClick={() => console.log('connect')}>Connect With Me!</button>
+                                    <button onClick={() => console.log('connect')}>Connect With Me! <ArrowUpCircleFill size={25} /></button>
                                 </div>}
                         </TrackVisibility>
+                    </Col>
+                    <Col xs={12} md={6} xl={5}>
+                    {/* <img src="../assets/what-do-you-see.jpg" width="200px" height="200px" alt="HeaderImg"></img> */}
                     </Col>
                 </Row>
             </Container>
