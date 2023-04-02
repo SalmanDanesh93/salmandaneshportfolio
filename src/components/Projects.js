@@ -167,7 +167,8 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src="../assets/dronesky.JPG" width="500px" height="500px" alt="bckground"></img>
+
     </section>
+    
   )
 }

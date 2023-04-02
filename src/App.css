@@ -200,7 +200,7 @@ transition: 0.3s ease-in-out;
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #9ae068;
+  color: #f3f2eb;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
@@ -209,7 +209,7 @@ transition: 0.3s ease-in-out;
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: rgb(13, 23, 0);
 }
 .project h2 {
 	font-size: 45px;
@@ -254,7 +254,7 @@ transition: 0.3s ease-in-out;
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 115.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -262,9 +262,6 @@ transition: 0.3s ease-in-out;
 }
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
-}
-.project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .proj-imgbx {
